@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.bodyComponent {
+    display: inline-flex;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+}
+
+.bodyText {
+    margin: auto;
+}
+
+#bodyPhoto {
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+#buttonRegister {
+    margin: 10%;
+    border-radius: 5px;
+    border-color: white;
+    background-color: blue;
+}
