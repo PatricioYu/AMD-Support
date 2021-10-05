@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Body from './body';
+import Footer from './footer'
 import Login from './login'
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Body />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
