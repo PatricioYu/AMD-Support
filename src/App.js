@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import amdLogoV1 from './amdLogoV1.png';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className="header">
+      <img src={amdLogoV1} className="headerItems" id="headerLogo" alt="Logo del Header" />
+      <div className="headerItems">About Us</div>
+      <div className="headerItems">Products</div>
+      <div className="headerItems">Shop</div>
+      <div className="headerItems">Language</div>    
     </div>
   );
 }
+
 
 export default App;
