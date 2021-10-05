@@ -1,14 +1,22 @@
 Proyecto "Soporte de AMD" :
 
-  Concepto : Página del soporte de AMD para enviar consultas, con una interfaz interactiva.
 
-  Requisitos :
+  - Concepto : Página del soporte de AMD para enviar consultas, con una interfaz interactiva.
+
+
+  - Requisitos :
+		
 		* Sección de Register/Log in.
 		* Sitio responsive.
-		* Base de datos incluyendo : a) información del usuario, b) historial de consultas, c) _?.
+		* Base de datos incluyendo : 
+			a) información del usuario 
+			b) historial de consultas 
+			c) _?.
 		* Separación de la página en secciones (header, navbar, article, section ...).
 	
-  Herramientas :
+	
+  - Herramientas :
+	
 		- Frontend :
 			* HTML, CSS, JS.
 			* React.
@@ -16,7 +24,9 @@ Proyecto "Soporte de AMD" :
 			* Node.js, express.
 			* MongoDB.
 
-  Bonus :
+
+  - Bonus :
+	
 		* Sección de feedback.
 		* Sección con distintas consultas de productos por si algún cliente tiene la misma duda.
 		* Link a la tienda oficial.
