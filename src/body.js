@@ -1,18 +1,47 @@
-import amdComponent from './amdComponent.png';
-import './body.css'
+import './Body.css'
+import amdComponent from '../src/amdComponent.png'
+import Back from '../src/back.jpg'
 
 
-function Body(){
-    return(
-      <div className="body">
-        <div className="bodyComponent">
-          <img src={amdComponent} id="bodyPhoto" alt="Foto de un componente" />
 
-          <p className="bodyText">Somos el soporte de AMD <br /><button id="buttonRegister">Entrar</button></p>
-          
+function Body() {
+    return (
+      <section className="main">
+      
+        <div className="divA">
+        <img src={amdComponent} className="amdImg" id="amd image" alt="Imagen AMD" />
         </div>
-      </div>
-    );
-}
 
-export default Body;
+        <div className="divB">
+          <div className="divbTexto">
+            <h1>Soporte de AMD</h1>
+              <b>Lamentamos que tengas problemas, por favor comentanos tu problema.</b>
+              <a href="./Paginas/signup.html" class="btnNeon">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span>
+                Entrar
+              </a>
+          </div>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </section>
+      
+      
+    );
+  }
+
+  
+  export default Body;
+  
