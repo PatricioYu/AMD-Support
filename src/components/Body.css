@@ -3,22 +3,16 @@
     height: 750px;
     display: flex;
     justify-content: center;
-    background-image: url(../src/back.jpg);
+    background-image: url(./back.jpg);
     background-size: cover;
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
     border-bottom: 3px solid black;
 }
 
-
-
-
-
-
-
 .divA{
     width: 30%;
-    height:400px ;
+    height:400px;
     background-color: white;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -34,9 +28,7 @@
   11.1px 11.4px 17.2px -16px rgba(0, 0, 0, 0.13),
   18.3px 18.8px 28.3px -16px rgba(0, 0, 0, 0.15),
   31.9px 32.8px 49.5px -16px rgba(0, 0, 0, 0.178),
-  69px 71px 107px -16px rgba(0, 0, 0, 0.24)
-;
-
+  69px 71px 107px -16px rgba(0, 0, 0, 0.24);
 }
 
 .amdImg{
@@ -62,10 +54,7 @@
     11.1px 11.4px 17.2px -16px rgba(0, 0, 0, 0.13),
     18.3px 18.8px 28.3px -16px rgba(0, 0, 0, 0.15),
     31.9px 32.8px 49.5px -16px rgba(0, 0, 0, 0.178),
-    69px 71px 107px -16px rgba(0, 0, 0, 0.24)
-;
-
-   
+    69px 71px 107px -16px rgba(0, 0, 0, 0.24);
 }
 
 .divbTexto{
@@ -76,13 +65,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 h1{
     font-size: 35px;
     text-decoration: underline;
 }
+
 .btnNeon{
     position: relative;
     display: inline-block;
@@ -165,5 +154,3 @@ h1{
     transition: 1s;
     transition-delay:0.75s;
 }
-
-

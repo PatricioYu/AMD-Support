@@ -1,13 +1,10 @@
 import './Body.css'
-import amdComponent from '../src/amdComponent.png'
-import Back from '../src/back.jpg'
-
-
+import amdComponent from './amdComponent.png'
+import back from './back.jpg'
 
 function Body() {
     return (
       <section className="main">
-      
         <div className="divA">
         <img src={amdComponent} className="amdImg" id="amd image" alt="Imagen AMD" />
         </div>
@@ -25,23 +22,9 @@ function Body() {
               </a>
           </div>
         </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      </section>
-      
-      
+      </section>   
     );
   }
 
-  
-  export default Body;
+export default Body;
   
