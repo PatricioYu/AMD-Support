@@ -1,6 +1,7 @@
 import './Body.css'
 import amdComponent from './amdComponent.png'
 import back from './back.jpg'
+import {Link} from 'react-router-dom';
 
 function Body() {
     return (
@@ -13,13 +14,13 @@ function Body() {
           <div className="divbTexto">
             <h1>Soporte de AMD</h1>
               <b>Lamentamos que tengas problemas, por favor comentanos tu problema.</b>
-              <a href="./Paginas/signup.html" class="btnNeon">
+              <Link to="/register" class="btnNeon">
                 <span id="span1"></span>
                 <span id="span2"></span>
                 <span id="span3"></span>
                 <span id="span4"></span>
                 Entrar
-              </a>
+              </Link>
           </div>
         </div>
       </section>   
