@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+import Div_image from './components/Div_image';
 import Register from './components/Register';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
@@ -11,6 +12,7 @@ ReactDOM.render(
      
     <Switch>
       <Route path="/register">
+            <Div_image/>
             <Register/>
       </Route>
       <Route path="/">
