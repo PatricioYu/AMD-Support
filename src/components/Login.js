@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
 function Login(){
     return(
-        <div className="">
+    <div className="">
         <div className="div_form">
         <form action="" className="formulario">
         <h1 className="formulario__titulo">Registrate</h1>
@@ -17,8 +17,10 @@ function Login(){
             <p><Link to="/register" className="cuenta" >Volver</Link></p>
         </div>
         </form>
-    </div>
         </div>
+    </div>
+   
+       
     );
 }
 

@@ -3,11 +3,22 @@
     height: 150px;
     background-color: white;
     
+    
 }
 .amd_png{
     width: 250px;
     height: 90%;  
     margin-top: 1%;
     margin-left: 2%;
+    
+}
+    
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 17%;
+  
     
 }
