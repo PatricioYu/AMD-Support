@@ -5,12 +5,18 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import Div_image from './components/Div_image';
 import Register from './components/Register';
+import Login from './components/Login';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 ReactDOM.render(
   <Router>
      
     <Switch>
+      <Route path="/login">
+        <Div_image/>
+        <Login/>
+
+      </Route>
       <Route path="/register">
             <Div_image/>
             <Register/>

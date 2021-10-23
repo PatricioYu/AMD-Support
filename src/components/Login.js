@@ -1,17 +1,12 @@
-import '../components/Register.css';
-import amdpng from './amdpng.png';
+import './Login.css'
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
-function Register(){
+function Login(){
     return(
-    
-    <div className="div_form">
+        <div className="">
+        <div className="div_form">
         <form action="" className="formulario">
         <h1 className="formulario__titulo">Registrate</h1>
-        <label for="" className="formulario__label">Nombre</label>
-        <input type="text" className="formulario__input"/>
-        <label for="" className="formulario__label">Apellido</label>
-        <input type="text" className="formulario__input"/>
         <label for="" className="formulario__label">Usuario</label>
         <input type="text" className="formulario__input"/>
         <label for="" className="formulario__label">Contraseña</label>
@@ -19,12 +14,12 @@ function Register(){
         <input type="submit" className="formulario__submit"/>
         
         <div class="botonazul">
-            <p><a className="cuenta" href="../index.html">Volver</a></p>
-            <p><Link to="./login" className="volver">¿Ya tenes cuenta?</Link></p>
+            <p><Link to="/register" className="cuenta" >Volver</Link></p>
         </div>
         </form>
     </div>
+        </div>
     );
 }
 
-export default Register;
+export default Login;
