@@ -12,14 +12,14 @@ function Body() {
 
         <div className="divB">
           <div className="divbTexto">
-            <h1>Soporte de AMD</h1>
-              <b>Lamentamos que tengas problemas, por favor comentanos tu problema.</b>
+            <h1>AMD's Support</h1>
+              <b>Sorry for all the problems! <br/> Let us know about them once you are registered.</b>
               <Link to="/register" class="btnNeon">
                 <span id="span1"></span>
                 <span id="span2"></span>
                 <span id="span3"></span>
                 <span id="span4"></span>
-                Entrar
+                Register
               </Link>
           </div>
         </div>
