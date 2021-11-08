@@ -8,8 +8,8 @@ const db = process.env.MONGODB_URI || 'mongodb://localhost/amd-support';
 
 const app = express();
 
-mongoose.set('useUnifiedTopology', true);
-mongoose.set('useFindAndModify', false);
+// mongoose.set('useUnifiedTopology', true);
+// mongoose.set('useFindAndModify', false);
 mongoose
   .connect(db, { useNewUrlParser: true})
   .then(() => {
