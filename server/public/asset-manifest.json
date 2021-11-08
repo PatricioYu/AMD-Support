@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1146cfc5.chunk.css",
+    "main.js": "/static/js/main.f964ce66.chunk.js",
+    "main.js.map": "/static/js/main.f964ce66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.255afdfb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.255afdfb.js.map",
+    "static/js/2.5df93ad4.chunk.js": "/static/js/2.5df93ad4.chunk.js",
+    "static/js/2.5df93ad4.chunk.js.map": "/static/js/2.5df93ad4.chunk.js.map",
+    "static/js/3.d3545e31.chunk.js": "/static/js/3.d3545e31.chunk.js",
+    "static/js/3.d3545e31.chunk.js.map": "/static/js/3.d3545e31.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1146cfc5.chunk.css.map": "/static/css/main.1146cfc5.chunk.css.map",
+    "static/js/2.5df93ad4.chunk.js.LICENSE.txt": "/static/js/2.5df93ad4.chunk.js.LICENSE.txt",
+    "static/media/amdComponent.18367c15.png": "/static/media/amdComponent.18367c15.png",
+    "static/media/amdpng.baef6399.png": "/static/media/amdpng.baef6399.png",
+    "static/media/Body.css": "/static/media/back.7723d727.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.255afdfb.js",
+    "static/js/2.5df93ad4.chunk.js",
+    "static/css/main.1146cfc5.chunk.css",
+    "static/js/main.f964ce66.chunk.js"
+  ]
+}

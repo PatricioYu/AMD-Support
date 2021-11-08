@@ -8,6 +8,8 @@ const db = process.env.MONGODB_URI || 'mongodb://localhost/amd-support';
 
 const app = express();
 
+app.use(express.static('public'));
+
 // mongoose.set('useUnifiedTopology', true);
 // mongoose.set('useFindAndModify', false);
 mongoose
