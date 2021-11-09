@@ -20,6 +20,11 @@ ReactDOM.render(
         <Div_image/>
         <Register/>
       </Route>
+      
+      <Route path="/usuario">
+        <header_usua/>
+        <body_usua/>
+      </Route>
 
       <Route path="/">
         <App/>
