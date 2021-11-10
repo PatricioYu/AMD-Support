@@ -10,8 +10,8 @@ const app = express();
 
 app.use(express.static('public'));
 
-// mongoose.set('useUnifiedTopology', true);
-// mongoose.set('useFindAndModify', false);
+mongoose.set('useUnifiedTopology', true);
+mongoose.set('useFindAndModify', false);
 mongoose
   .connect(db, { useNewUrlParser: true})
   .then(() => {
@@ -26,8 +26,8 @@ app.use(express.json());
 app.use(cors());
 // logger para desarrollo
 app.use(morgan('dev'));
-// api router
-app.use('/api', require('./api/routes/note'));
+// router
+app.use('/', require('./routes/note'));
 
 // error handlers (despues de las rutas de la API)
 // 404 not found
