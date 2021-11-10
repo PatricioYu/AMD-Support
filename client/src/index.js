@@ -8,11 +8,22 @@ import Register from './components/Register';
 import Login from './components/Login';
 import Usuario from './components/Usuario';
 import Usuario_body from './components/Usuario_body';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
     <Switch>
+
+      <Route path="/app">
+        <Header/>
+        <Body/>
+        <Footer/>
+      </Route>
+
+
       <Route path="/login">
         <Div_image/>
         <Login/>

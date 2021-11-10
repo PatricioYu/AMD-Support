@@ -57,3 +57,37 @@
   
 }
 
+.welcome{
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-left: 36%;
+  
+}
+.css-button-neumorphic-login{
+  min-width: 130px;
+  height: 40px;
+  color: black;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: none;
+  background: black;
+  border: 1px solid white;
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.css-button-neumorphic-login:hover {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+  background: white;
+  color: black;
+}
+

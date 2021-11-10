@@ -10,7 +10,7 @@ function Usuario(){
   const onClick = e => {
     e.preventDefault();
     console.log('Has salido');
-    history.push('/Register');
+    history.push('/App');
 
   };
 
