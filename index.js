@@ -10,8 +10,8 @@ const app = express();
 
 app.use(express.static('public'));
 
-mongoose.set('useUnifiedTopology', true);
-mongoose.set('useFindAndModify', false);
+// mongoose.set('useUnifiedTopology', true);
+// mongoose.set('useFindAndModify', false);
 mongoose
   .connect(db, { useNewUrlParser: true})
   .then(() => {
