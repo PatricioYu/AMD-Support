@@ -27,7 +27,7 @@ app.use(cors());
 // logger para desarrollo
 app.use(morgan('dev'));
 // router
-app.use('/', require('./routes/note'));
+app.use('/', require('./routes/user'));
 
 // error handlers (despues de las rutas de la API)
 // 404 not found
