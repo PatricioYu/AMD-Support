@@ -18,6 +18,7 @@
     border-bottom-left-radius: 25px;
     margin-top: 150px;
     background-size: cover;
+    filter: brightness(80%);
     border-bottom: 2px solid white;
     border-left: 2px solid white;
     border-top: 2px solid white;
