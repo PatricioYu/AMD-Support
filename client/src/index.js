@@ -7,6 +7,7 @@ import Div_image from './components/Div_image';
 import Register from './components/Register';
 import Login from './components/Login';
 import Usuario from './components/Usuario';
+import Usuario_body from './components/Usuario_body';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
 ReactDOM.render(
@@ -24,7 +25,7 @@ ReactDOM.render(
       
       <Route path="/usuario">
         <Usuario/>
-        
+        <Usuario_body/>
       </Route>
 
       <Route path="/">
