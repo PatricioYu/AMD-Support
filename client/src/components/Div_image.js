@@ -1,8 +1,6 @@
 import '../components/Div_image.css';
 import amdpng from './amdpng.png';
 
-
-
 function Div_image (){
     return(
     <div className="div_image">

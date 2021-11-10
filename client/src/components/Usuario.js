@@ -14,7 +14,6 @@ function Usuario(){
 
   };
 
-
     return ( 
             <div className="header_usuario">
               <img src={gente} className="logo" id="headerLogo" alt="Logo del Header" />
@@ -25,7 +24,8 @@ function Usuario(){
               <button className="css-button-neumorphic-salir" onClick={onClick}>Salir</button>
             </div> 
     );
-    
 }
+ 
 
-export default Usuario;
+
+export default Usuario ;

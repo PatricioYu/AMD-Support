@@ -3,6 +3,18 @@ const User    = require('../models/User');
 
 const router = express.Router();
 
+// POST /users
+router.post('/users', (req, res, next) => {
+  const user = new User({
+    username: req.body.username,
+    password: req.body.password
+  });
+  user.save((err, note) => {
+    if (err) return next(err);
+    res.status(201).json(user);
+  });
+});
+
 // GET /users
 router.get('/users', (req, res, next) => {
   User.find()                  // todos los docs de users
@@ -51,18 +63,6 @@ router.get('/users/:id', (req, res, next) => {
         }
       });
     });
-});
-
-// POST /users
-router.post('/users', (req, res, next) => {
-  const user = new User({
-    username: req.body.username,
-    password: req.body.password
-  });
-  user.save((err, note) => {
-    if (err) return next(err);
-    res.status(201).json(user);
-  });
 });
 
 // PUT /users/id

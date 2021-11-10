@@ -26,8 +26,8 @@ app.use(express.json());
 app.use(cors());
 // logger para desarrollo
 app.use(morgan('dev'));
-// api router
-app.use('/api', require('./api/routes/note'));
+// router
+app.use('/', require('./routes/user'));
 
 // error handlers (despues de las rutas de la API)
 // 404 not found
