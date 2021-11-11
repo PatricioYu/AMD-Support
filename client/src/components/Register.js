@@ -3,17 +3,14 @@ import React, { useState } from 'react';
 import amdpng from './amdpng.png';
 import { BrowserRouter as Router, Switch, Route, Link, useHistory } from "react-router-dom";
 
-
-
 function Register(){
 
     const history = useHistory();
 
     const handleSubmit = e => {
-    e.preventDefault();
-    console.log('form enviado');
-    history.push('/usuario');
-
+        e.preventDefault();
+        console.log('form enviado');
+        history.push('/usuario');
     };
 
     return(
