@@ -19,31 +19,6 @@ mongoose
   })
   .catch(err => console.error(`Connection error ${err}`));
 
-// middleware
-// parsear bodys con json
-app.use(express.json());
-// usar cors
-app.use(cors());
-// logger para desarrollo
-app.use(morgan('dev'));
-// router
-app.use('/', require('./routes/user'));
-
-// error handlers (despues de las rutas de la API)
-// 404 not found
-app.use((req, res, next) => {
-  const err = new Error('Not found');
-  err.status = 404;
-  next(err);
-});
-// algun error distinto a not found
-// defaultea a 500
-app.use((err, req, res, next) => {
-  res.status(err.status || 500);
-  // DEBUG: console.error(err.stack)
-  res.json({ error: err.message });
-});
-
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
