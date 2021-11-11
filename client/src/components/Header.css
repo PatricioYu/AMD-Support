@@ -3,11 +3,11 @@
   height: 85px;
   background: linear-gradient(to right, rgb(31, 2, 112), rgb(173, 34, 104));
   background: linear-gradient(to right, rgb(28, 155, 132), rgb(83, 28, 155));
-  
+  background: black;
   color: white;
   display: flex;
   font-size: 2rem ;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid white;
 }
 
 .logo{
@@ -27,7 +27,7 @@
 .verticleLine{
   width: 1px;
   height: 60px;
-  background: black;
+  background: white;
   margin-left: 40px;
   margin-top: 12px;
 }
@@ -57,10 +57,18 @@
   
 }
 
-.css-button-neumorphic {
+.welcome{
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-left: 36%;
+  
+}
+.css-button-neumorphic-login{
   min-width: 130px;
   height: 40px;
-  color: linear-gradient(to right, rgb(28, 155, 132), rgb(83, 28, 155));
+  color: black;
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -68,17 +76,18 @@
   position: relative;
   display: inline-block;
   outline: none;
-  border-radius: 5px;
   border: none;
-  background: linear-gradient(to right, rgb(28, 155, 132), rgb(83, 28, 155));
-  box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+  background: black;
+  border: 1px solid white;
   color: white;
   margin-left: 200px;
   margin-top: 20px;
-  
-}
-.css-button-neumorphic:active {
-  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+  margin-right: 20px;
 }
 
+.css-button-neumorphic-login:hover {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+  background: white;
+  color: black;
+}
 

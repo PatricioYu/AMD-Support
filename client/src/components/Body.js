@@ -1,5 +1,5 @@
 import './Body.css'
-import amdComponent from './amdComponent.png'
+import amdComponent from './flusha.gif'
 import back from './back.jpg'
 import {Link} from 'react-router-dom';
 
