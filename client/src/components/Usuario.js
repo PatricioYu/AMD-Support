@@ -25,7 +25,5 @@ function Usuario(){
             </div> 
     );
 }
- 
-
 
 export default Usuario ;
