@@ -1,4 +1,4 @@
-.main{
+.mainsection{
     width: 100%;
     height: 900px;
     display: flex;
@@ -155,3 +155,36 @@ h1{
     transition: 1s;
     transition-delay:0.75s;
 }
+
+.scrollDown{
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .scrollDown>a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .scrollDown>a>svg{
+    color: rgb(240, 240, 240);
+    width: 2.5em;
+    animation: move 1.5s linear infinite;
+  }
+  
+  @keyframes move {
+    0%,100%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(.5em);
+    }
+  
+  }
+  
+
+
+
+
