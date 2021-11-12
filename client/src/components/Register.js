@@ -30,7 +30,6 @@ function Register(){
                 </div>
             </form>
         </div>
-        
     );
 }
 
