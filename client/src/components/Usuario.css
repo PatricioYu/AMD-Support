@@ -64,7 +64,7 @@
   background: black;
   border: 1px solid white;
   color: white;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: 20px;
   
 }
@@ -78,7 +78,7 @@
   min-width: 130px;
   height: 40px;
   color: black;
-  padding: 5px 10px;
+  /*padding: 5px 10px;*/
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -89,9 +89,9 @@
   background: black;
   border: 1px solid white;
   color: white;
-  margin-left: 200px;
+  margin-left: 470px;
   margin-top: 20px;
-  margin-right: 20px;
+  
 }
 
 .css-button-neumorphic-salir:hover {

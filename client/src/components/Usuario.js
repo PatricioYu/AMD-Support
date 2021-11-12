@@ -20,8 +20,9 @@ function Usuario(){
               <div className="verticleLine"></div>
               <div className="links"><button className="css-button-neumorphic">Shop</button><button className="css-button-neumorphic">Accessories</button><button className="css-button-neumorphic">ODA</button>
               <button className="css-button-neumorphic">Options</button>
-              </div>
               <button className="css-button-neumorphic-salir" onClick={onClick}>Salir</button>
+              </div>
+              
             </div> 
     );
 }
