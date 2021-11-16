@@ -3,8 +3,22 @@ const bcrypt  = require('bcrypt');
 const router  = express.Router();
 const User    = require('../models/User');
 
-
-router.post('/register', (req, res, next) => {
+// GET
+router.get('/Usuario', (req, res) => {
+  User.find().exec((err, Usuario) => {
+    if (err) throw err;
+    res.status(200).json(Usuario);
+  });
+});
+// GET :id
+router.get('/Usuario/:id', (req, res) => {
+  User.findById(req.params.id).exec((err, Usuario) => {
+    if (err) throw err;
+    res.status(200).json(Usuario);
+  });
+});
+// POST
+router.post('/Usuario', (req, res, next) => {
   const user = new User({
     username: req.body.username,
     password: req.body.password,
