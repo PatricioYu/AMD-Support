@@ -64,12 +64,6 @@ function Body() {
         </a>
       </span>
       </section>
-      
-     
-      
-   
-      
-
     );
   }
 
