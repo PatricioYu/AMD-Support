@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer (){
     return(
-    <div className="lastHeader">
+    <div className="lastHeader" id="footer">
         <div className="divMiddle">
             <div className="divLine1">
                 <div className="Links"> 
