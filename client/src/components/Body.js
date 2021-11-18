@@ -1,5 +1,5 @@
 import './Body.css'
-import amdComponent from './flusha.gif'
+import amdComponent from './amd.gif';
 import back from './back.jpg'
 import flecha from './flecha-hacia-abajo.png';
 import {Link} from 'react-router-dom';
@@ -25,8 +25,8 @@ function Body() {
               </Link>
           </div>
         </div>
-        <span class="scrollDown">
-        <a href="#about-me">
+        <span class="flecha">
+        <a href="#footer">
           <svg
             width="100"
             height="50"
