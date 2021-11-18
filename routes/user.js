@@ -36,17 +36,5 @@ router.post('/Usuario', (req, res, next) => {
     });
   });
 });
-router.get('/register', (req, res, next) => {
-
-});
-router.get('/register/id:', (req, res, next) => {
-
-});
-router.post('/register/id:', (req, res, next) => {
-
-});
-router.post('/register/id:', (req, res, next) => {
-
-});
 
 module.exports = router;
