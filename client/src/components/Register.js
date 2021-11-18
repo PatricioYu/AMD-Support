@@ -21,7 +21,7 @@ function Register(){
         axios.post(url, formData)
           .then(res => console.log(res.data))
           .catch(err => console.log(err));        
-        history.push('/usuario');
+        history.push('/Usuario');
     };
 
     return(
