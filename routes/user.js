@@ -28,26 +28,25 @@ router.post('/Usuario', (req, res, next) => {
       console.error('User already exists');      
       return res.status(400).send('El usuario ya existe'); 
     }
-  });
-  
-  if (!user) {
-    const user = new User({
-      username: req.body.username,
-      password: req.body.password,
-      email: req.body.email,
-      createdAt: req.body.createdAt
-    });
-    bcrypt.genSalt(10, (err, salt) => {
-      bcrypt.hash(user.password, salt, (err, hash) => {
-        if (err) throw err;
-        user.password = hash;
-        user.save(err => {
+    if (!user) {
+      const user = new User({
+        username: req.body.username,
+        password: req.body.password,
+        email: req.body.email,
+        createdAt: req.body.createdAt
+      });
+      bcrypt.genSalt(10, (err, salt) => {
+        bcrypt.hash(user.password, salt, (err, hash) => {
           if (err) throw err;
-          res.status(201).json(user);
+          user.password = hash;
+          user.save(err => {
+            if (err) throw err;
+            res.status(201).json(user);
+          });
         });
       });
-    });
-  };
+    }
+  });
 });
 
 module.exports = router;
