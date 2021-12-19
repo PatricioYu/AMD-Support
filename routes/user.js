@@ -19,9 +19,19 @@ router.get('/Usuario/:id', (req, res) => {
 });
 // POST
 router.post('/Usuario', (req, res, next) => {
-  User.findOne({ username: req.body.username }); 
-    (err, user) => { if(user) return res.json({ err: "Nombre de usuario ya existente" }); }
-  
+  const { username, email } = req.body;
+
+  User.findOne({ username }, (err, user) => {
+    if (err) {
+      console.error('Error when registering new user:', err);
+      return res.status(500).send('Error interno del servidor, intente nuevamente');
+    }
+    if (user) {
+      console.error('User already exists');      
+      return res.status(400).send('El usuario ya existe');
+    }
+  });
+
   const user = new User({
     username: req.body.username,
     password: req.body.password,
