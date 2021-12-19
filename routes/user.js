@@ -19,7 +19,7 @@ router.get('/Usuario/:id', (req, res) => {
 });
 // POST
 router.post('/Usuario', (req, res, next) => {
-  User.find({
+  user.find({
     username: req.body.username
   });
   (err, user) => { if(user) return res.json({ err: "Nombre de usuario ya existente" }); }; 
