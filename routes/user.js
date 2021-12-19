@@ -45,6 +45,7 @@ router.post('/Usuario', (req, res, next) => {
           });
         });
       });
+      history.push('/Usuario');
     }
   });
 });
