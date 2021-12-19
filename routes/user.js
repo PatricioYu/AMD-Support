@@ -22,7 +22,7 @@ router.post('/Usuario', (req, res, next) => {
   User.find({
     username: req.body.username
   });
-  (err, user) => { if(user) return res.json({ err: "Nombre de usuario ya existente" }) }; 
+  (err, user) => { if(user) return res.json({ err: "Nombre de usuario ya existente" }); }; 
   
   const user = new User({
     username: req.body.username,
