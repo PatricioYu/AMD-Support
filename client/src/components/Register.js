@@ -20,8 +20,8 @@ function Register(){
         const url = '/Usuario';
         axios.post(url, formData)
           .then(res => console.log(res.data))
-          .then(res => history.push('/Usuario'))
-          .catch(err => console.log(err));        
+          .catch(err => console.log(err));   
+        history.push('/Usuario');
     };
 
     return(
