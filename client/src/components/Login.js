@@ -23,7 +23,7 @@ function Login(){
             
             <div class="botonazul">
                 <p><Link to="/" className="cuenta" >Go Back</Link></p>
-                <p><Link to="/register" className="back">Don't have an account?</Link></p>
+                <p><Link to="/signup" className="back">Don't have an account?</Link></p>
             </div>
           </form>
         </div>

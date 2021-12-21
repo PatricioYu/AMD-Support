@@ -1,10 +1,9 @@
-import './Register.css';
+import './SignUp.css';
 import axios from 'axios';
 import React, { useState } from 'react';
-import amdpng from './amdpng.png';
 import { BrowserRouter as Router, Switch, Route, Link, useHistory } from "react-router-dom";
 
-function Register(){
+function SignUp(){
 
     const history = useHistory();
 
@@ -21,13 +20,13 @@ function Register(){
         axios.post(url, formData)
           .then(res => console.log(res.data))
           .catch(err => console.log(err));   
-        history.push('/Usuario');
+        history.push('/Usuario');     
     };
 
     return(
         <div className="div_form">
             <form onSubmit={handleSubmit} action="" className="formulario">
-                <h1 className="formulario__titulo">Register</h1>
+                <h1 className="formulario__titulo">Sign Up</h1>
 
                 <label 
                     htmlFor="username" 
@@ -68,7 +67,7 @@ function Register(){
                     className="formulario__submit"/>
                 
                 <div class="botonazul">
-                    <p><Link to="/" className="cuenta" >Go Back</Link></p>
+                    <p><Link to="/" className="cuenta" >Go back</Link></p>
                     <p><Link to="./login" className="back">Already have an account?</Link></p>
                 </div>
             </form>
@@ -76,4 +75,4 @@ function Register(){
     );
 }
 
-export default Register;
+export default SignUp;

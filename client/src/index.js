@@ -4,7 +4,7 @@ import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import Div_image from './components/Div_image';
-import Register from './components/Register';
+import SignUp from './components/SignUp';
 import Login from './components/Login';
 import Usuario from './components/Usuario';
 import Usuario_body from './components/Usuario_body';
@@ -29,9 +29,9 @@ ReactDOM.render(
         <Login/>
       </Route>
 
-      <Route path="/register">
+      <Route path="/signup">
         <Div_image/>
-        <Register/>
+        <SignUp/>
       </Route>
       
       <Route path="/usuario">
