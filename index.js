@@ -2,13 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const morgan = require('morgan');
+const path = require('path')
 
 const port = process.env.PORT || 4000;
 const db = process.env.MONGODB_URI || 'mongodb://localhost/amd-support';
 
 const app = express();
 
-app.use(express.static('public'));
+app.use('/static', express.static(path.join(__dirname, 'client/build')));
 
 app.use(express.json());
 app.use(cors());
