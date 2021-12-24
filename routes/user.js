@@ -26,7 +26,7 @@ router.post('/Usuario', (req, res, next) => {
     }
     if (user) {
       console.error('User already exists');      
-      return res.status(400).send(err, 'El usuario ya existe'); 
+      return res.status(400).send('El usuario ya existe'); 
     }
     if (!user) {
       const user = new User({
