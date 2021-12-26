@@ -25,7 +25,7 @@ function SignUp(){
       .catch(err => {
         console.log(err);
         history.push('/signup');
-        alert('This username is already taken, please try another username!');
+        alert('This username is already taken or the username is empty \nPlease enter a valid username!');
       });    
     };
 

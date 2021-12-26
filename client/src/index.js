@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
-import Div_image from './components/Div_image';
+import DivImage from './components/DivImage';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
 import Usuario from './components/Usuario';
@@ -16,21 +16,19 @@ import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 ReactDOM.render(
   <Router>
     <Switch>
-
       <Route path="/app">
         <Header/>
         <Body/>
         <Footer/>
       </Route>
 
-
       <Route path="/login">
-        <Div_image/>
+        <DivImage/>
         <Login/>
       </Route>
 
       <Route path="/signup">
-        <Div_image/>
+        <DivImage/>
         <SignUp/>
       </Route>
       
