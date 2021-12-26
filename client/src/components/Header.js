@@ -18,7 +18,6 @@ function App() {
         className="logo" 
         id="headerLogo" 
         alt="Logo del Header" />
-      <h1 className="welcome">Welcome!</h1>
       <button className="css-button-neumorphic-login" onClick={onClick}>Log in</button>
     </div> 
   );

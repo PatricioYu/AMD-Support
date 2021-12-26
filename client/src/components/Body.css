@@ -8,7 +8,7 @@
     height: 20rem;
     display: flex;
     margin: 0 auto;
-    background-color:#dbdbdb;
+    background-color: rgba(35, 35, 35, 0.2);
     border-bottom: 1px black;
     box-shadow:
       1.6px 1.6px 2.5px -16px rgba(0, 0, 0, 1),
@@ -70,9 +70,8 @@
     height: 56rem;
     display: flex;
     justify-content: center;
-    background-image: url(./ryzen.gif);
     background-size: cover;
-    background-color: rgba(50, 50, 50, 0.6);
+    background-color: rgba(35, 35, 35, 0.2);
     background-blend-mode: soft-light;
     border-bottom: 3px solid black;
   }
@@ -83,7 +82,7 @@
     background-color: white;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    margin: 15em 0 15em auto;
+    margin: 15rem 0 15rem auto;
     background-size: cover;
     filter: brightness(80%);
     border-bottom: 2px solid white;
@@ -107,14 +106,14 @@
   
   .divB {
     width: 30%;
-    height: 25rem ;
-    background-color:#D5D8DC;
+    height: 25rem;
+    background-color: rgb(0, 0, 0, 0.9);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: 2px solid white;
     border-right: 2px solid white;
     border-top: 2px solid white;
-    margin: 15em auto 15em 0;
+    margin: 15rem auto 15rem 0;
     box-shadow:
       1.6px 1.6px 2.5px -16px rgba(0, 0, 0, 0.062),
       3.7px 3.8px 5.8px -16px rgba(0, 0, 0, 0.09),
@@ -133,11 +132,12 @@
     justify-content: center;
     text-align: center;
     margin: 5rem 2rem;
+    color: white;
   }
   
   h1 {
     font-size: 2rem;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255);
     font-weight: 800;
     text-decoration: none;
   }
@@ -148,7 +148,7 @@
     padding: 1rem 2rem;
     color: rgb(255, 255, 255);
     letter-spacing: 4px;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
@@ -225,34 +225,4 @@
     transition: 1s;
     transition-delay:0.75s;
   }
-  
-  .flecha {
-    position: absolute;
-    bottom: 1em;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-    
-  .flecha > a { 
-    text-decoration: none;
-  }
-  
-  .flecha > a > svg {
-    color: white;
-    width: 2.5em;
-    animation: move 1.5s linear infinite;
-  }
-    
-  @keyframes move {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(.5em);
-    }
-  }
 }
-
-
-
-

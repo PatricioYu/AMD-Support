@@ -7,7 +7,6 @@ import DivImage from './components/DivImage';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
 import Usuario from './components/Usuario';
-import Usuario_body from './components/Usuario_body';
 import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
@@ -34,7 +33,6 @@ ReactDOM.render(
       
       <Route path="/usuario">
         <Usuario/>
-        <Usuario_body/>
       </Route>
 
       <Route path="/">

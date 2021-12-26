@@ -10,18 +10,6 @@
   border-bottom: 2px solid white;
 }
 
-.logo{
-  border-radius: 5px;
-  margin-left: 19px;
-  margin-top: 16px;
-  width: 3%;
-  height: 60%;  
-  cursor: pointer;
-  
-}
-
-
-
 .verticleLine{
   width: 1px;
   height: 60px;
