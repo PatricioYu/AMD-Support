@@ -1,41 +1,55 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.logo {
+  height: 6rem;
+  margin: 0 auto;
+}
+
+.css-button-neumorphic-login {
+  display: none;
+}
+
+/* Desktop design */
 @media screen and (min-width: 1080px) {
   .header{
-    width: 100%;
-    height: 5.5rem;
-    background: linear-gradient(to right, rgb(31, 2, 112), rgb(173, 34, 104));
-    background: linear-gradient(to right, rgb(28, 155, 132), rgb(83, 28, 155));
-    background: black;
-    color: white;
     display: flex;
+    width: 100%;
+    height: 4.5rem;
+    color: white;
+    background: black;
   }
 
   .logo{
-    margin: auto auto auto 2rem;
     min-width: 5.5rem;
-    height: 80%;
+    height: 100%;
+    margin: auto auto auto 0.5rem;
   }
 
   .css-button-neumorphic-login{
+    display: inline-block;
+    position: relative;
     min-width: 8rem;
     height: 2.4rem;
-    color: black;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border: none;
-    background: black;
-    border: 1px solid white;
-    color: white;
     margin: auto 2rem auto auto;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-weight: bold;
+    border: 1px solid white;
+    outline: none;
+    transition: all 0.3s ease;
   }
 
   .css-button-neumorphic-login:hover {
-    box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
-    background: white;
     color: black;
+    background: white;
+    box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
   }
 }

@@ -1,103 +1,182 @@
-@media screen and (min-width: 1080px) {
-  .css-button-arrow--black {
-      min-width: 130px;
-      height: 40px;
-      color: #fff;
-      padding: 5px 10px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      position: relative;
-      display: inline-block;
-      outline: none;
-      overflow: hidden;
-      border-radius: 5px;
-      border: none;
-      background-color: black;
-      margin-left: 50px;
-    }
-    .css-button-arrow--black:hover {
-      border-radius: 5px;
-      padding-right: 24px;
-      padding-left:8px;
-    }
-    .css-button-arrow--black:hover:after {
-      opacity: 1;
-      right: 10px;
-    }
-    .css-button-arrow--black:after {
-      content: "\00BB";
-      position: absolute;
-      opacity: 0;
-      font-size: 20px;
-      line-height: 40px;
-      top: 0;
-      right: -20px;
-      transition: 0.4s;
-    }
-
+@media screen and (max-width: 1079px) {
   .lastHeader{
-      width: 100%;
-      height: 390px;
-      background-color: black;
-      margin-top: 0px;
-      display: flex;
-      justify-content: center;
-  }
-  .divMiddle{
-      width: 900px;
-      height: 100%;
-      background-color: red;
-      display: flex;
-      flex-direction: column;
-  }
-  .divLine1{
-    width: 100%;
-    height: 50%;
+    display: flex;
+    justify-content: center;
+    height: 30rem;
     background-color: black;
+    border-top: white solid;
+  }
+
+  .css-button-arrow--black {
+    display: block;
+    position: relative;
+    min-width: 8.125rem;
+    height: 2.5rem;
+    margin: 1rem auto;
+    padding: 0.3125rem 0.625;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.1s ease;
+  }
+  .css-button-arrow--black:active {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.3125rem;
+  }
+  .css-button-arrow--black:active:after {
+    opacity: 1;
+    right: 0.625rem;
+  }
+  .css-button-arrow--black:after {
+    position: absolute;
+    content: "\00BB";
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    opacity: 0;
+    top: 0;
+    right: -1.5rem;
+    transition: 0.2s;
+  }
+
+  .divLine1 {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 55%;
+    margin: 0 auto;
+    background-color: black;
   }
 
-  .Links{
-      width: 100%;
-      height: 30px;
-      color: white;
-      display: flex;
-      margin-left: 45px;
-      margin-top: 20px;
-      font-size: 20px;
+  .divLine2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    margin: 0 auto;
+    background-color: black;
   }
 
-  .divLine2{
-      width: 100%;
-      height: 50%;
-      background-color: black;
-      display: flex;
-      flex-direction: column;
-  }
-  .Line1{
-      width: 90%;
-      height: 2px;
-      background-color: white;
-      margin-top: 25px;
-      margin-left: 45px;
+  .Line1 {
+    width: 100%;
+    height: 0.125rem;
+    margin: 0 auto;
+    background-color: white;
   }
 
-  .Line2{
-      width: 90%;
-      height: 2px;
-      background-color: white;
-      margin-top: 110px;
-      margin-left: 45px;
+  .divDerechos {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .lastHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 24.375rem;
+    margin-top: 0;
+    background-color: black;
+  }
+  
+  .Links {
+    display: flex;
+    width: 100%;
+    height: 1.875rem;
+    margin-top: 1.25rem;
+    color: white;
+    font-size: 1.25rem;
   }
 
-  .divDerechos{
-      width: 100%;
-      height:15px;
-      color: white;
-      display: flex;
-      justify-content: flex-start;
-      margin-left: 45px;
+  .css-button-arrow--black {
+    display: inline-block;
+    position: relative;
+    min-width: 8.125rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    padding: 0.3125rem 0.625;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .css-button-arrow--black:hover {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.3125rem;
+  }
+  .css-button-arrow--black:hover:after {
+    opacity: 1;
+    right: 0.625rem;
+  }
+  .css-button-arrow--black:after {
+    position: absolute;
+    content: "\00BB";
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    opacity: 0;
+    top: 0;
+    right: -1.5rem;
+    transition: 0.4s;
+  }
+
+  .divLine1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin: 0 20rem auto 20rem;
+    background-color: black;
+  }
+
+
+  .divLine2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    margin: 0 20rem auto 20rem;
+    background-color: black;
+  }
+  
+  .Line1 {
+    width: 100%;
+    height: 0.125rem;
+    margin: 2rem auto;
+    background-color: white;
+  }
+
+  .Line2 {
+    width: 100%;
+    height: 0.125rem;
+    margin-top: 12rem;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: white;
+  }
+
+  .divDerechos {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto;
+    color: white;
   }
 }

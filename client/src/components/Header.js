@@ -13,11 +13,13 @@ function App() {
 
   return ( 
     <div className="header">
+      <a href="/" className="logo">
       <img 
         src={logoAmd} 
         className="logo" 
-        id="headerLogo" 
-        alt="Logo del Header" />
+        alt="Logo del Header" 
+      />
+      </a>
       <button className="css-button-neumorphic-login" onClick={onClick}>Log in</button>
     </div> 
   );
